@@ -278,13 +278,17 @@ main {
       line-height: 42px;
       color: #FFFFFF; }
     .modal-form .modal-form-top .modal-form-close {
+      border: none;
       font-family: 'Saira Extra Condensed', sans-serif;
       font-weight: normal;
       font-size: 38px;
       line-height: 42px;
       text-align: right;
       color: #FFFFFF;
-      cursor: pointer; }
+      cursor: pointer;
+      background: none; }
+      .modal-form .modal-form-top .modal-form-close:focus {
+        outline: none; }
   .modal-form .form {
     display: -ms-flexbox;
     display: flex;
