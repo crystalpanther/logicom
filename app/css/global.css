@@ -286,7 +286,7 @@ main {
       text-align: right;
       color: #FFFFFF;
       cursor: pointer;
-      background: none; }
+      background: transparent; }
       .modal-form .modal-form-top .modal-form-close:focus {
         outline: none; }
   .modal-form .form {
